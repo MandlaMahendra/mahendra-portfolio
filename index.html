@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mahendra — Premium Portfolio</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="parallax-bg">
+
+  
+  <canvas id="particles"></canvas>
+
+  
+  <header class="nav">
+    <div class="logo">Mahendra</div>
+
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  
+  <section class="hero reveal" id="hero">
+    <div class="hero-left">
+      <h1 class="hero-title">Hello, I'm <span class="accent">Mahendra</span></h1>
+      <p id="typewriter" class="typewriter" aria-live="polite"></p>
+      <div class="hero-cta">
+        <a class="btn" href="https://drive.google.com/file/d/1FVWsna13fLEMYaprFAOTE4LoueOgUta8/view?usp=drivesdk" download>Download Resume</a>
+        <a class="btn ghost" href="mailto:mandlamahendravalmiki@gmail.com">Contact Me</a>
+      </div>
+      <p class="hero-description">
+        B.Tech CSE • Web & Android Developer • Aspiring SDE — I build responsive web apps, Android apps,
+        and efficient backend solutions.
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <div class="profile-wrap">
+        <img src="c:\Users\mandl\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\D185C5ED37536AC0063F735F7A15DD24\WhatsApp Image 2025-12-11 at 19.31.11_db27ea42.jpg" alt="Mahendra profile" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <div class="long-text">
+      <p>I’m Mahendra, a motivated Computer Science undergraduate at VIT-AP (2023–2027) specializing in full-stack web development and Android. I enjoy writing clean, maintainable code, solving algorithmic challenges, and building products.</p>
+      <p>I participate in hackathons, contribute to open source, and focus on learning system design, scalable backends and performance. This portfolio is built to show depth — many sections, animations, and a clear SDE-focused story.</p>
+      <p>My current goals: strengthen design patterns, prepare for competitive interviews, gain production experience with cloud-native apps, and land an SDE role at a product company.</p>
+    </div>
+  </section>
+
+  <section id="education" class="section reveal">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="timeline-item card-tilt">
+        <h3>VIT-AP University (2023 — 2027)</h3>
+        <p>B.Tech — Computer Science & Engineering — CGPA: 8.44 (4 semesters)</p>
+      </div>
+
+      <div class="timeline-item card-tilt">
+        <h3>Narayana Junior College (2021 — 2023)</h3>
+        <p>Intermediate (MPC) — Percentage: 96%</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="experience" class="section reveal">
+    <h2>Experience</h2>
+
+    <div class="experience-grid">
+      <article class="experience-card project-card card-tilt">
+        <h3>Web Development Intern — Conginify</h3>
+        <p class="muted">June 2024 – Aug 2024 (Remote)</p>
+        <ul>
+          <li>Built responsive pages with HTML/CSS/JS and improved load performance.</li>
+          <li>Integrated REST APIs to render dynamic content and implemented modular components.Built responsive web pages using HTML, CSS, and JavaScript.
+• Integrated APIs for dynamic content updates.
+• Collaborated with the team for project deployment.</li>
+        </ul>
+      </article>
+
+      <article class="experience-card project-card card-tilt">
+        <h3>Android Intern — AICTE Virtual Internship</h3>
+        <p class="muted">May 2024 – Jul 2024 (Remote)</p>
+        <ul>
+          <li>Developed Android apps using Kotlin + XML with local DB integration.</li>
+          <li>Designed intuitive UI flows and fixed cross-device layout issues.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  
+  <section id="skills" class="section reveal">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+      
+      <div class="skill-card card-tilt">Python</div>
+      <div class="skill-card card-tilt">Java</div>
+      <div class="skill-card card-tilt">C++</div>
+      <div class="skill-card card-tilt">HTML / CSS</div>
+      <div class="skill-card card-tilt">JavaScript (ES6+)</div>
+      <div class="skill-card card-tilt">React</div>
+      <div class="skill-card card-tilt">Node.js</div>
+      <div class="skill-card card-tilt">Express</div>
+      <div class="skill-card card-tilt">MongoDB</div>
+      <div class="skill-card card-tilt">MySQL</div>
+      <div class="skill-card card-tilt">Kotlin (Android)</div>
+      <div class="skill-card card-tilt">Git / GitHub</div>
+     
+      <div class="skill-card card-tilt">Data Structures & Algorithms</div>
+      <div class="skill-card card-tilt">REST APIs & JSON</div>
+   
+    </div>
+  </section>
+
+  
+  <section id="projects" class="section reveal">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+      
+      <article class="project-card card-tilt">
+        <h3>Personal Portfolio Website</h3>
+        <p class="muted">HTML · CSS · JS</p>
+        <p class="project-desc">A responsive, animated portfolio demonstrating projects, skills, and timeline. Built with a custom animation system (particles, scroll-reveal, tilt). Includes resume download and social links. Focus on accessibility and responsive UX.</p>
+      </article>
+
+      <article class="project-card card-tilt">
+        <h3>Hospital Management System</h3>
+        <p class="muted">MongoDB · Node.js</p>
+        <p class="project-desc">Backend system to manage patients, doctors, and staff. Implemented 20+ optimized MongoDB queries, role-based access controls, and REST endpoints for CRUD operations. Focused on query performance and indexing.</p>
+      </article>
+
+      <article class="project-card card-tilt">
+        <h3>House Hub (Android App)</h3>
+        <p class="muted">Kotlin · XML</p>
+        <p class="project-desc">A rental property mobile app prototype with property listings, search & filters, and wishlist. Implemented local DB caching and clean MVVM architecture for maintainability.</p>
+      </article>
+
+      
+      
+      <article class="project-card card-tilt">
+        <h3>Mini E-commerce UI</h3>
+        <p class="muted">React · CSS</p>
+        <p class="project-desc">A polished e-commerce front-end with product grids, filters, animated cart, and local storage for state persistence.</p>
+      </article>
+    </div>
+  </section>
+
+  
+  <section id="achievements" class="section reveal">
+    <h2>Achievements & Certifications</h2>
+    <ul class="ach-list">
+      <li>Android Development Virtual Internship — Certificate</li>
+      <li>Self-paced Mastering Data Structures & Algorithms — Learning Certifications</li>
+      <li>Multiple hackathon participations & coding challenge ranks</li>
+      <li>• Android app development.
+         • Matlab on ramp.
+         • wadhwani foundations.</li>
+    </ul>
+  </section>
+
+  
+  <section id="contact" class="section reveal">
+    <h2>Contact</h2>
+
+    <div class="contact-links">
+      <a class="contact-card card-tilt" href="mailto:mandlamahendravalmiki@gmail.com" target="_blank" rel="noopener">
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email">
+        <div>
+          <strong>Email</strong>
+          <div class="muted">mandlamahendravalmiki@gmail.com</div>
+        </div>
+      </a>
+
+      <a class="contact-card card-tilt" href="https://www.linkedin.com/in/mandla-mahendra-120a69339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="linkedin">
+        <div>
+          <strong>LinkedIn</strong>
+          <div class="muted">LINKEDIN-ID</div>
+        </div>
+      </a>
+
+      <a class="contact-card card-tilt" href="https://www.instagram.com/mahendra._.mandla?igsh=OG93bTNmOTl6cG96" target="_blank" rel="noopener">
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" alt="instagram">
+        <div>
+          <strong>Instagram</strong>
+          <div class="muted"></div>
+        </div>
+      </a>
+    </div>
+
+    
+  </section>
+
+  
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2025 Mahendra Mandla — Built with ❤️</p>
+      <p class="muted">Made with HTML • CSS • JavaScript • Designed for SDE portfolio</p>
+    </div>
+  </footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
